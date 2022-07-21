@@ -16,6 +16,8 @@ import org.springframework.util.MultiValueMap;
 @Component
 public class TokenUtil {
 
+	// Token teste 
+	
 	@Value("${security.oauth2.client.client-id}")
 	private String clientId;
 
